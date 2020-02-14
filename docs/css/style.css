@@ -108,6 +108,18 @@ Helper CSS
 	padding-top: 105px;
 	padding-bottom: 105px;
 }
+.requerimientosf {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	margin-left: 50px;
+}
+.requerimientos-title{
+	font-size: 22px;
+	font-weight: 700;
+	color: #fc0254;
+}
+
+
 
 .text-white h1,
 .text-white h2,
@@ -1812,4 +1824,5 @@ Responsive
 		position: relative;
 		margin-top: 20px;
 	}
+	
 }
