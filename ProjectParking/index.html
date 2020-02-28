@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Tamaño del elemento div que contiene el mapa*/
+        #map{
+            width: 100%; /*Tamaño del ancho del mapa en la pagina web*/
+            height: 500px; /* Tamaño del alto del mapa*/
+            background-color: gray;
+        }
+        html, body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <!--Elemento div para mostrar el mapa-->
+    <div id="map"></div>
+    
+    <!--Carga la API de Google-->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUhCKO-xGZLHa9ZAXFx2Dl3eszbvV_qY&callback=initMap">
+    </script>
+    <script src="main.js"></script>
+    <script src="location.js"></script>
+</body>
+</html>
